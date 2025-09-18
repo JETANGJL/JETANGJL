@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JETANGJL/JETANGJL/main/assets/jet-particles.gif?v=2" />
+  <img src="https://raw.githubusercontent.com/JETANGJL/github-test/main/jet-particles.gif" alt="Jet particles banner" />
 </p>
 
 # 👋 Introduction
