@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Jet Particles Banner</title>
+  <style>
+    html,body { margin:0; padding:0; background:#0b0f1a; }
+    #tsparticles { height:300px; width:1600px; }
+    .title {
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font: 700 48px/1.2 "Segoe UI", sans-serif;
+      color:#00f5ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #00f5ff;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+  <div id="tsparticles"></div>
+  <div class="title">Hi there! I'm Jet 🚀</div>
+  <script>
+    (async () => {
+      await tsParticles.load("tsparticles", {
+        background: { color: "#0b0f1a" },
+        particles: {
+          number: { value: 100 },
+          color: { value: ["#00f5ff", "#ff00ff", "#f5ff00"] },
+          links: { enable: true, color: "#ffffff", opacity: 0.2, distance: 120 },
+          move: { enable: true, speed: 1.5 },
+          size: { value: { min: 1, max: 3 } },
+          opacity: { value: 0.6 }
+        },
+        interactivity: {
+          events: { onHover: { enable: true, mode: "repulse" } },
+          modes: { repulse: { distance: 100 } }
+        },
+        detectRetina: true, fpsLimit: 60
+      });
+    })();
+  </script>
+</body>
+</html>
