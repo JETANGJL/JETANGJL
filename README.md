@@ -6,7 +6,7 @@
 Hi I'm Jet! I am a Year 3 Computer Science student pursuing a joint-degree at [Singapore Institute of Technology](https://www.singaporetech.edu.sg/undergraduate-programmes/computer-science-real-time-interactive-simulation) and [DigiPen Institute of Technology](https://www.digipen.edu.sg/academics/computer-science-degrees/bs-in-computer-science-in-real-time-interactive-simulation) graduating in April 2027!
 
 ## 🛠️ Current Projects
-- **[3D Floorplan Modeler](https://github.com/JETANGJL/3d-floorplan)** – Full-stack system (MongoDB, FastAPI, Next.js, Babylon.js).
+- **[2D to 3D Floorplan Real Time Interactive Simulation](https://github.com/JETANGJL/3d-floorplan)** – Full-stack system (MongoDB, FastAPI, Next.js, Babylon.js).
 
 ## 💻 Programming Languages
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
